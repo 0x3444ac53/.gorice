@@ -1,35 +1,13 @@
-# background and foreground MUST exist and MUST be hex color values
-# names cannot contain '-'
+bar: {background: '#61EFF0F1', bottom: 'true', font0: 'DejaVu Sans Mono:size=10:antialias=false;2',
+  height: 26, radius: 6, width: 100%}
+border: {all: 10, bottom: 10, color: '#00000000', pixels: 2, top: 0}
+gap: {inner: 15, outer: 0}
 terminal:
-    background: "#E1E1E1"
-    foreground: "#131313"
-    bold: "#A9A9A9"
-    termbackground: "rgba(240,240,240,0.80)"
-    font: "CodeNewRoman Nerd Font Mono 10"
-    colors: ["#494949", "#E64141", "#19BC9C", "#FFFE5D", "#1793D1", "#AF86C8", "#5DD5FF", "#969896", "#F6F6F6"]
-    # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
-
-border:
-    pixels: 2
-    all: 10
-    top: 0
-    bottom: 10
-    color: "#00000000"
-
-
-gap:
-    inner: 15
-    outer: 0
-
-
-bar:
-    height: 26
-    width: "100%"
-    radius: 6
-    bottom: "true"
-    background: "#61EFF0F1"
-    font0: "DejaVu Sans Mono:size=10:antialias=false;2"
-
-
-wallpaper:
-    saved: "/usr/share/backgrounds/pools.jpg"
+  background: '#E1E1E1'
+  bold: '#A9A9A9'
+  colors: ['#494949', '#E64141', '#19BC9C', '#FFFE5D', '#1793D1', '#AF86C8', '#5DD5FF',
+    '#969896', '#F6F6F6']
+  font: Share Tech Mono 10
+  foreground: '#131313'
+  termbackground: rgba(240,240,240,0.80)
+wallpaper: {saved: /usr/share/backgrounds/pools.jpg}

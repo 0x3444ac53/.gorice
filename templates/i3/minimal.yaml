@@ -1,0 +1,13 @@
+bar: {background: 'rgba(0,0,0,0)', bottom: 'false', font0: 'DejaVu Sans Mono:size=10:antialias=false;2',
+  height: 24, radius: 0, width: 100%}
+border: {all: 0, bottom: 0, color: '#1D1D1D', pixels: 2, top: 0}
+gap: {inner: 15, outer: 0}
+terminal:
+  background: '#f4f5f6'
+  bold: '#373737'
+  colors: ['#292929', '#494949', '#696969', '#B3B3B3', '#898989', '#595959', '#969696',
+    '#D7D7D7', '#EEEEEC']
+  font: Share Tech Mono 10
+  foreground: '#1D1D1D'
+  termbackground: rgba(250,250,250, 1)
+wallpaper: {saved: /home/adien/Pictures/Wallpapers/circles-light.png}

@@ -1,4 +1,4 @@
-bar: {background: 'rgba(0,0,0,0)', bottom: 'false', font0: 'Share Tech 
+bar: {background: '#9d94b0', bottom: 'false', font0: 'Share Tech 
 Mono:size=10:antialias=false;2',
   height: 24, radius: 0, width: 100%}
 border: {all: 0, bottom: 0, color: '#000000', pixels: 4, top: 0}
@@ -6,9 +6,9 @@ gap: {inner: 20, outer: 0}
 terminal:
   background: '#000000'
   bold: '#EEEEEC'
-  colors: ['#292929', '#494949', '#696969', '#B3B3B3', '#898989', '#595959', '#969696',
+  colors: ['#70e672', '#70e6ad', '#70e4e6', '#70a9e6', '#7270e6', '#ad70e6', '#969696',
     '#D7D7D7', '#EEEEEC']
   font: Share Tech Mono 10
   foreground: '#bcbcbc'
-  termbackground: rgba(0,0,0,0.80)
-wallpaper: {saved: /usr/share/backgrounds/ocean.jpg}
+  termbackground: rgba(1,19,76,0.80)
+wallpaper: {saved: /home/adien/Pictures/Wallpapers/08cdd22368b034e321eb6d49d19e553a.jpg}
